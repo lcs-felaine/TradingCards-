@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		66DDBB6F2CE3EDAD0001913E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DDBB692CE3EDAD0001913E /* Preview Assets.xcassets */; };
+		66DDBB702CE3EDAD0001913E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DDBB6B2CE3EDAD0001913E /* Assets.xcassets */; };
+		66DDBB712CE3EDAD0001913E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DDBB6C2CE3EDAD0001913E /* DetailView.swift */; };
+		66DDBB722CE3EDAD0001913E /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DDBB6D2CE3EDAD0001913E /* TradingCardsApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		66DDBB582CE3E5CA0001913E /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DDBB692CE3EDAD0001913E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66DDBB6B2CE3EDAD0001913E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66DDBB6C2CE3EDAD0001913E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		66DDBB6D2CE3EDAD0001913E /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		66DDBB5A2CE3E5CA0001913E /* TradingCards */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TradingCards;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		66DDBB552CE3E5CA0001913E /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		66DDBB4F2CE3E5CA0001913E = {
 			isa = PBXGroup;
 			children = (
-				66DDBB5A2CE3E5CA0001913E /* TradingCards */,
+				66DDBB6E2CE3EDAD0001913E /* TradingCards */,
 				66DDBB592CE3E5CA0001913E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,33 @@
 				66DDBB582CE3E5CA0001913E /* TradingCards.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		66DDBB6A2CE3EDAD0001913E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66DDBB692CE3EDAD0001913E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66DDBB6E2CE3EDAD0001913E /* TradingCards */ = {
+			isa = PBXGroup;
+			children = (
+				66DDBB6D2CE3EDAD0001913E /* TradingCardsApp.swift */,
+				66DDBB732CE3EDC50001913E /* Views */,
+				66DDBB6A2CE3EDAD0001913E /* Preview Content */,
+				66DDBB6B2CE3EDAD0001913E /* Assets.xcassets */,
+			);
+			path = TradingCards;
+			sourceTree = "<group>";
+		};
+		66DDBB732CE3EDC50001913E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66DDBB6C2CE3EDAD0001913E /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +89,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				66DDBB5A2CE3E5CA0001913E /* TradingCards */,
 			);
 			name = TradingCards;
 			packageProductDependencies = (
@@ -109,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66DDBB6F2CE3EDAD0001913E /* Preview Assets.xcassets in Resources */,
+				66DDBB702CE3EDAD0001913E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66DDBB712CE3EDAD0001913E /* DetailView.swift in Sources */,
+				66DDBB722CE3EDAD0001913E /* TradingCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
